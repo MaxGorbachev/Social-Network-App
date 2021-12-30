@@ -12,7 +12,7 @@
 		CC1A24492774F2B50092D00A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC1A24472774F2B50092D00A /* Main.storyboard */; };
 		CC1A244B2774F2B60092D00A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC1A244A2774F2B60092D00A /* Assets.xcassets */; };
 		CC1A244E2774F2B60092D00A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC1A244C2774F2B60092D00A /* LaunchScreen.storyboard */; };
-		CC1A2456277D282E0092D00A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1A2455277D282E0092D00A /* LoginViewController.swift */; };
+		CC1A2458277D30F90092D00A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1A2457277D30F90092D00A /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		CC1A244A2774F2B60092D00A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC1A244D2774F2B60092D00A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC1A244F2774F2B60092D00A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CC1A2455277D282E0092D00A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CC1A2457277D30F90092D00A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +58,8 @@
 			children = (
 				CC1A24412774F2B50092D00A /* AppDelegate.swift */,
 				CC1A24432774F2B50092D00A /* SceneDelegate.swift */,
+				CC1A2457277D30F90092D00A /* LoginViewController.swift */,
 				CC1A24472774F2B50092D00A /* Main.storyboard */,
-				CC1A2455277D282E0092D00A /* LoginViewController.swift */,
 				CC1A244A2774F2B60092D00A /* Assets.xcassets */,
 				CC1A244C2774F2B60092D00A /* LaunchScreen.storyboard */,
 				CC1A244F2774F2B60092D00A /* Info.plist */,
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC1A2456277D282E0092D00A /* LoginViewController.swift in Sources */,
+				CC1A2458277D30F90092D00A /* LoginViewController.swift in Sources */,
 				CC1A24422774F2B50092D00A /* AppDelegate.swift in Sources */,
 				CC1A24442774F2B50092D00A /* SceneDelegate.swift in Sources */,
 			);
