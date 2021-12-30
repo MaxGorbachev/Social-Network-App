@@ -17,6 +17,11 @@ class LoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardDidShown(_:)), name: UIResponder.keyboardDidShowNotification, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardDidHide), name: UIResponder.keyboardWillHideNotification, object: nil)
+
+        let recognizer = UITapGestureRecognizer(target: self, action: #selector(onTap))
+        recognizer.cancelsTouchesInView = false
+        self.view.addGestureRecognizer(recognizer)
 
     }
 
@@ -27,6 +32,21 @@ class LoginViewController: UIViewController {
         scrollView.contentInset = insets
         scrollView.scrollIndicatorInsets = insets
     }
+
+    @objc func keyboardDidHide () {
+        scrollView.contentInset = UIEdgeInsets.zero
+        scrollView.scrollIndicatorInsets = UIEdgeInsets.zero
+    }
+
+    @objc func onTap () {
+        self.view.endEditing(true)
+    }
+
+    deinit {
+        NotificationCenter.default.removeObserver(self)
+    }
+
+
 
     
     @IBAction func loginButtonPressed(_ sender: Any) {
