@@ -8,6 +8,8 @@ import UIKit
 
 class LoginViewController: UIViewController {
 
+    let loginSuccess = "loginToTabbar"
+
     @IBOutlet weak var loginField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
     @IBOutlet weak var loginButton: UIButton!
@@ -26,9 +28,9 @@ class LoginViewController: UIViewController {
     }
 
     @objc func keyboardDidShown (_ notification: Notification) {
-        guard let keyboardHeigt = ((notification.userInfo?[UIResponder.keyboardFrameBeginUserInfoKey] as? NSValue)?.cgRectValue)?.height else {return}
+        guard let keyboardHeight = ((notification.userInfo?[UIResponder.keyboardFrameBeginUserInfoKey] as? NSValue)?.cgRectValue)?.height else {return}
 
-        let insets = UIEdgeInsets(top: 0, left: 0, bottom: keyboardHeigt + 150, right: 0)
+        let insets = UIEdgeInsets(top: 0, left: 0, bottom: keyboardHeight + 150, right: 0)
         scrollView.contentInset = insets
         scrollView.scrollIndicatorInsets = insets
     }
@@ -55,7 +57,7 @@ class LoginViewController: UIViewController {
 
         if login == "root",
            password == "12345" {
-            print("Login succeed")
+            performSegue(withIdentifier: loginSuccess, sender: nil)
         } else {
             print("Login failed")
         }

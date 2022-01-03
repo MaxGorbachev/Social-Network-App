@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "kisspng-student-education-school-icon-school-icon-5a98e40d5621b3.0222445815199692933528.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

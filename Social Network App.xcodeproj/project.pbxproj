@@ -13,6 +13,8 @@
 		CC1A244B2774F2B60092D00A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC1A244A2774F2B60092D00A /* Assets.xcassets */; };
 		CC1A244E2774F2B60092D00A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC1A244C2774F2B60092D00A /* LaunchScreen.storyboard */; };
 		CC1A2458277D30F90092D00A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1A2457277D30F90092D00A /* LoginViewController.swift */; };
+		CC349D3D2783478300ABCD58 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC349D3C2783478300ABCD58 /* ResetPasswordViewController.swift */; };
+		CC349D3F278349C800ABCD58 /* NewsPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC349D3E278349C800ABCD58 /* NewsPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CC1A244D2774F2B60092D00A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC1A244F2774F2B60092D00A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC1A2457277D30F90092D00A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CC349D3C2783478300ABCD58 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		CC349D3E278349C800ABCD58 /* NewsPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				CC1A24412774F2B50092D00A /* AppDelegate.swift */,
 				CC1A24432774F2B50092D00A /* SceneDelegate.swift */,
 				CC1A2457277D30F90092D00A /* LoginViewController.swift */,
+				CC349D3C2783478300ABCD58 /* ResetPasswordViewController.swift */,
+				CC349D3E278349C800ABCD58 /* NewsPageViewController.swift */,
 				CC1A24472774F2B50092D00A /* Main.storyboard */,
 				CC1A244A2774F2B60092D00A /* Assets.xcassets */,
 				CC1A244C2774F2B60092D00A /* LaunchScreen.storyboard */,
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC349D3F278349C800ABCD58 /* NewsPageViewController.swift in Sources */,
 				CC1A2458277D30F90092D00A /* LoginViewController.swift in Sources */,
 				CC1A24422774F2B50092D00A /* AppDelegate.swift in Sources */,
 				CC1A24442774F2B50092D00A /* SceneDelegate.swift in Sources */,
+				CC349D3D2783478300ABCD58 /* ResetPasswordViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
